@@ -1,0 +1,4 @@
+students = {"Student A": [85,80,89,77,90], "Student B": [89,87,87,90,93], "Student C" : [77,80,84,79,78], "Student D": [93,93,90,95,90], "Student E": [89,80,77,72,81]}
+name=input("enter student name here:")
+
+print (students [name])
