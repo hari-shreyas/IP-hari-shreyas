@@ -1,0 +1,8 @@
+num = int(input("ënter the number here : "))
+n = int(input("enter the number of multiples : "))
+print("multiples are :")
+for a in range(1,n+1):
+                res = num * a
+                print(res)
+                
+                
