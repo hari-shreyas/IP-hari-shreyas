@@ -1,0 +1,6 @@
+text = input("Enter a sentence with the words starting with differnt letters : ")
+alpha = input("enter the starting letter of a word from the sentence  :")
+words = text.split(" ")
+for word in words:
+    if word[0] == alpha:
+        print(word)
