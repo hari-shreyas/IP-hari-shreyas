@@ -1,0 +1,7 @@
+text = input ("enter a sentence:")
+alphabet = input ("enter the alphabet to check:" )
+count = 0
+for x in text:
+    if x==alphabet:
+        count += 1
+print (alphabet, "appears in the sentence",count,"times.")
