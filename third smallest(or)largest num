@@ -1,0 +1,17 @@
+a=[]
+
+nos=int(input("Enter the number of values:"))
+
+for i in range(1,nos+1):
+
+   ele=int(input("Enter the number:"))
+
+   a.append(ele)
+
+a.sort( reverse=True)
+
+print('The third largest number is',a[2])
+
+a.sort(reverse=False)
+
+print("The third smallest number is",a[2])
