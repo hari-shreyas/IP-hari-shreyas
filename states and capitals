@@ -1,0 +1,9 @@
+states=dict()
+n=int(input("enter the number of states:"))
+for i in range (n):
+    state=input("enter the name of the state:")
+    capital=input ("enter the name of the capital city:")
+    states[state]=capital
+print ("dictionary created:",states)
+temp=input("enter the state for which you want the capital:")
+print ("the capital is:", states[temp])
