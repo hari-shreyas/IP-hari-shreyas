@@ -1,0 +1,5 @@
+cp=float(input("What is the cost price? :"))
+dp=float(input("What is the discount percentage? :"))
+discount = cp*dp/100
+sellingprice = cp-discount
+print ("The sale price is:",sellingprice)
