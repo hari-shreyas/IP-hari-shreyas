@@ -1,0 +1,6 @@
+lst = []
+num = int(input('How many numbers do you want to enter?: '))
+for n in range(num):
+    numbers = int(input('Enter the number: '))
+    lst.append(numbers)
+print("Number with the most value is:", max(lst), "\nNumber with the least value is:", min(lst))
