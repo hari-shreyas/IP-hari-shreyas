@@ -1,0 +1,9 @@
+n = int(input("how many subjects are there?:"))
+sumMarks = 0
+for i in range(n):
+    marks = float(input("Enter the marks:"))
+    sumMarks += marks
+
+avgMarks = sumMarks / n
+print("sum of marks is",sumMarks)
+print("averange marks is ", avgMarks)
